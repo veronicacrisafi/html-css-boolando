@@ -8,6 +8,7 @@
 /*h-style*/
 #h-style {
     background-color: #ff6900;
+
 }
 
 /*container e flex*/
@@ -79,4 +80,19 @@
 
 img {
     width: 400px;
+}
+
+.card {
+    position: relative;
+
+}
+
+.heart i {
+    position: absolute;
+    background-color: white;
+    top: 3px;
+    right: 2px;
+    font-size: 40px;
+
+
 }
