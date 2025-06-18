@@ -7,6 +7,10 @@
 .container {
     margin: auto;
     max-width: 1200px;
+    width: 70%;
 }
 
 /*h-style*/
+#h-style {
+    background-color: #ff6900;
+}
