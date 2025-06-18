@@ -17,13 +17,13 @@
     min-width: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
+    flex-grow: 1;
 }
 
-.flex {
+.h-flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
 
 }
 
@@ -38,17 +38,19 @@
     transition: color 0.3s;
     padding-left: 5px;
     padding-right: 5px;
+
 }
 
 .link a:hover {
     color: gainsboro;
 }
 
+
+
 /*logo*/
 .img-booleando {
-    width: 20%;
-    margin-left: 350px;
-
+    width: 15%;
+    margin-left: 400px;
 }
 
 /*icons*/
@@ -63,4 +65,18 @@
 
 .icons i:hover {
     color: gainsboro;
+}
+
+/*card*/
+
+.card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+img {
+    width: 400px;
 }
