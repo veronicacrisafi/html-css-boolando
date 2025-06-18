@@ -4,13 +4,63 @@
     box-sizing: border-box;
 }
 
-.container {
-    margin: auto;
-    max-width: 1200px;
-    width: 70%;
-}
 
 /*h-style*/
 #h-style {
     background-color: #ff6900;
+}
+
+/*container e flex*/
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/*link*/
+
+.link a {
+
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.link a:hover {
+    color: gainsboro;
+}
+
+/*logo*/
+.img-booleando {
+    width: 20%;
+    margin-left: 350px;
+
+}
+
+/*icons*/
+.icons {
+    color: white;
+}
+
+.icons i {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.icons i:hover {
+    color: gainsboro;
 }
