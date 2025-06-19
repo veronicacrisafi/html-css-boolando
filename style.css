@@ -82,12 +82,12 @@ img {
     width: 400px;
 }
 
-.card {
+.card-1 {
     position: relative;
 
 }
 
-.heart i {
+.heart-1 i {
     position: absolute;
     background-color: white;
     top: 3px;
