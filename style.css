@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
 
 /*h-style*/
-#h-style {
+header {
     background-color: #ff6900;
 
 }
@@ -14,11 +18,11 @@
 /*container e flex*/
 .container {
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1200px;
     min-width: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
-    flex-grow: 1;
+
 }
 
 .h-flex {
@@ -29,6 +33,15 @@
 }
 
 /*link*/
+.list_link_header,
+.li_style {
+    display: flex;
+    text-decoration: none;
+
+
+}
+
+
 
 .link a {
 
@@ -50,8 +63,8 @@
 
 /*logo*/
 .img-booleando {
-    width: 15%;
-    margin-left: 400px;
+    max-width: 100%;
+    width: 200px;
 }
 
 /*icons*/
@@ -62,6 +75,7 @@
 .icons i {
     cursor: pointer;
     transition: color 0.3s;
+    padding: 5px;
 }
 
 .icons i:hover {
@@ -69,30 +83,3 @@
 }
 
 /*card*/
-
-.card-flex {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-
-}
-
-img {
-    width: 400px;
-}
-
-.card-1 {
-    position: relative;
-
-}
-
-.heart-1 i {
-    position: absolute;
-    background-color: white;
-    top: 3px;
-    right: 2px;
-    font-size: 40px;
-
-
-}
