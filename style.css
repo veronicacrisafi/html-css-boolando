@@ -17,15 +17,17 @@
 img {
     max-width: 100%;
     display: block;
+    width: 680px;
 }
 
 /*h-style*/
 header {
     background-color: #ff6900;
+    margin-bottom: 50px;
 
 }
 
-/*container e flex*/
+/*container e h-flex*/
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -50,8 +52,6 @@ header {
     display: flex;
     text-decoration: none;
 }
-
-
 
 .link a {
 
@@ -80,6 +80,7 @@ header {
 /*icons*/
 .icons {
     color: white;
+    margin-right: 20px;
 }
 
 .icons i {
@@ -92,23 +93,19 @@ header {
     color: gainsboro;
 }
 
-/*img overlay*/
-.contenitore {
-    max-width: 1200px;
-    margin: 2rem auto;
-    width: 1200px;
-}
+
 
 /*flex per la gliglia*/
 
-.flex {
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .column {
-    width: calc(100% / 3 -1);
+    width: calc(100% / 3 - 1rem);
+
 }
 
 .top {
@@ -138,6 +135,7 @@ header {
 
 }
 
+/*sconti e sostenibilità*/
 .sconti {
     position: absolute;
     bottom: 40px;
@@ -160,6 +158,7 @@ header {
     }
 }
 
+/*bottom*/
 .bottom {
     .name {
         text-transform: uppercase;
