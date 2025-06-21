@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bol-success: #008000;
+    --bol-danger: #ff0000;
+    --bol-orange: #ff6900;
+    --bol-dark: #1a1a1a;
+    --bol-white: white;
+
+
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -25,6 +35,8 @@ header {
 
 }
 
+
+
 .h-flex {
     display: flex;
     justify-content: space-between;
@@ -37,8 +49,6 @@ header {
 .li_style {
     display: flex;
     text-decoration: none;
-
-
 }
 
 
@@ -82,4 +92,86 @@ header {
     color: gainsboro;
 }
 
-/*card*/
+/*img overlay*/
+.contenitore {
+    max-width: 1200px;
+    margin: 2rem auto;
+    width: 1200px;
+}
+
+/*flex per la gliglia*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.column {
+    width: calc(100% / 3 -1);
+}
+
+.top {
+    position: relative;
+
+    .back {
+        display: none;
+    }
+
+    &:hover .back {
+        display: block;
+    }
+
+    &:hover .front {
+        display: none;
+    }
+}
+
+/*heart position absolute per farlo entrare nel suo elemento genitore top*/
+
+.heart {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.sconti {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+
+    .sale,
+    .sustainability {
+        padding: 10px 20px;
+        text-transform: capitalize;
+
+        &.sale {
+            background-color: var(--bol-danger)
+        }
+
+        &.sustainability {
+            background-color: var(--bol-success);
+        }
+
+    }
+}
+
+.bottom {
+    .name {
+        text-transform: uppercase;
+    }
+
+    .price .discountprice {
+        color: #ff0000;
+        font-weight: bold;
+    }
+
+
+    .price .originalprice {
+        text-decoration: line-through;
+    }
+}
