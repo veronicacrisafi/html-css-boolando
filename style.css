@@ -20,7 +20,11 @@ img {
     width: 680px;
 }
 
-/*h-style*/
+body {
+    font-family: 'Roboto';
+}
+
+/*header*/
 header {
     background-color: #ff6900;
     margin-bottom: 50px;
@@ -93,9 +97,9 @@ header {
     color: gainsboro;
 }
 
+/*end header*/
 
-
-/*flex per la gliglia*/
+/*Main*/
 
 .flex-container {
     display: flex;
@@ -174,3 +178,55 @@ header {
         text-decoration: line-through;
     }
 }
+
+/* end Main*/
+
+
+/*footer*/
+footer {
+    background-color: var(--bol-dark);
+    height: 150px;
+
+    .info_booleando {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .info,
+    .search,
+    .social,
+    .privacy {
+        margin-top: 10px;
+    }
+
+    .srl,
+    .privacy,
+    .follow {
+        color: white;
+        padding: 5px;
+    }
+
+    .site {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .social {
+        padding-right: 20px;
+
+    }
+
+    .social-icons {
+        font-size: 20px;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+
+
+    }
+
+}
+
+/*end footer*/
