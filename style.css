@@ -227,6 +227,14 @@ footer {
 
     }
 
+    .social-icons i {
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+    .social-icons i:hover {
+        color: gainsboro;
+    }
 }
 
 /*end footer*/
